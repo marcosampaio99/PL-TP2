@@ -1,0 +1,12 @@
+-MAIN 
+      a=2;
+      b=3;
+      c=3;
+      d=(a+b)*c;
+      e=a+b*c;
+      -WRITE d;
+      -WRITE "\n";
+      -WRITE e;
+:;
+
+

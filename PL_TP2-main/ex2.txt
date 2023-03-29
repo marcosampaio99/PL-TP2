@@ -1,0 +1,15 @@
+
+
+      -MAIN 
+      a=0;
+      b=1;
+      x=10;
+           -IF (x>3) :: 
+                  -WRITE a;
+            ::
+           -ELSE ::
+           -WRITE b;
+      :;
+  :;
+
+

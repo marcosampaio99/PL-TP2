@@ -1,0 +1,26 @@
+
+
+-MAIN 
+
+-READ n;
+count=0;
+
+-REPEATE :: {
+    -READ a;
+    -IF(a%2==1) ::
+            -WRITE "Encontrado o seguinte numero impar:";
+            -WRITE "\n";
+            -WRITE a;
+            -WRITE "\n";
+            n=n-1;
+            count=count+1;
+        ::
+        -ELSE ::
+        n=n-1;
+    :;
+} -UNTIL (n==0) :;
+
+-WRITE "O numero de numeros impares é:";
+-WRITE count;
+
+:;

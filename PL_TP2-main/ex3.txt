@@ -1,0 +1,10 @@
+-INT x; 
+-INT zzz;
+
+
+
+      -MAIN 
+           -IF (a==2) :: 
+                  -WRITE("Ola mundo! ca vou eu para o sucesso") ;                     
+            :;
+        :;

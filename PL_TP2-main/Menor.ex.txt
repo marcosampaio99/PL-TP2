@@ -1,0 +1,25 @@
+
+-MAIN
+
+-READ a;
+i=1;
+-READ primeiro;
+menor=primeiro;
+
+
+-REPEATE :: {
+       -READ n;
+	 -IF (n<=menor) :: 
+                  menor=n;
+                  i=i+1;
+            ::
+           -ELSE ::
+           i=i+1;
+      :;
+}
+ -UNTIL(i >= a) :;
+
+-WRITE "O menor numero e:";
+-WRITE menor;
+:;
+

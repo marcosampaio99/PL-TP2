@@ -1,0 +1,22 @@
+
+-MAIN
+menor=9999;
+i=0;
+
+-REPEATE :: {
+       -READ n;
+	   -IF (n<menor) :: 
+                  menor=n;
+                  i=i+1;
+            ::
+           -ELSE ::
+           i=i+1;
+      :;
+}
+ -UNTIL(i > n) :;
+
+-WRITE menor;
+:;
+
+
+

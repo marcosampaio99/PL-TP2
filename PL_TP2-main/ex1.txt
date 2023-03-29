@@ -1,0 +1,12 @@
+
+ -MAIN 
+        r=10;
+        -WRITE r;
+        i=100*r;
+        -READ z;
+        a=i+z;
+        -WRITE a;
+:;
+        
+
+        

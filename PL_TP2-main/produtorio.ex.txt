@@ -1,0 +1,19 @@
+
+
+-MAIN 
+
+mul=1;
+-READ a;
+
+-REPEATE :: {
+    -READ b;
+    mul=mul*b;
+    a=a-1;
+}  -UNTIL (a==0) :;
+
+
+
+-WRITE "O produtorio dos valores inseridos é:";
+-WRITE mul;
+
+:;
